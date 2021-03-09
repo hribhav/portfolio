@@ -1,0 +1,307 @@
+html, body {
+
+  margin: 0;
+  padding: 5px;
+ 
+  width: 500vh;
+  
+  
+
+  background-color:#F2F2F2;
+ 
+}
+
+.box{
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: azure;
+  border-color: black;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  
+}
+.tes{
+  position: absolute;
+  left: 4300px;
+  top: 460px;
+  font-size: 100px;
+  color:black;
+}
+.work{
+  position: absolute;
+  left: 3400px;
+  top: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: azure;
+  border-color: black;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 1;
+
+}
+
+
+.contact{
+  position: absolute;
+  left: 4300px;
+  top: 660px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: azure;
+  border-color: black;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+
+/* .parent{
+  z-index: 10;
+} */
+
+.motion{
+  position: absolute;
+  left: 4300px;
+  top: 660px;
+  text-decoration: none;
+  display: block;
+}
+
+.conci{
+  position: absolute;
+ 
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: azure;
+  border-color: black;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 1;
+}
+
+.tese{
+  position:absolute;
+ top: -150px;
+ right: -250px;
+  font-size: 60px;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.wrapper{
+  background-color: aqua;
+  
+}
+
+
+
+#sign{
+  position: fixed;
+  
+}  
+
+#sign1{
+  position: absolute;
+  left: 3250px;
+  top: 300px;
+  z-index: 2;
+}
+
+canvas {
+  display: block;
+}
+
+.music{
+  position:absolute;
+  left: 3350px;
+  top: 30px;
+
+}
+
+.tic{
+  position:absolute ;
+  left: 050px;
+  
+}
+
+
+.set{
+  position: absolute;
+
+  right: 500px;
+}
+.atrr{
+  position: absolute;
+}
+
+
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#parent{
+  position:absolute;
+  outline: none;
+  top: 250px;
+  font-size: 0px;
+  list-style: none;
+  margin: 10px;
+  padding: 5%;
+  white-space: nowrap;
+  
+
+}
+.ill{
+  position:relative ;
+  left: 850px;
+  top: 400px;
+}
+.juice{
+  position:relative ;
+  left: 1150px;
+  top: -60px;
+}
+
+.kiss{
+  position:relative ;
+  left: 2550px;
+  top: 100px;
+}
+.mel{
+  position:relative ;
+  left: 3050px;
+  top: 60px;
+}
+.ice{
+  position:relative ;
+  left: 3750px;
+  bottom: 100px;
+}
+.heart{
+  position:relative ;
+  left: 1550px;
+  top: 400px;
+  
+}
+
+
+.tic{
+  position:relative ;
+  left: 2550px;
+  bottom: 400px;
+}
+
+.meme{
+  position:relative ;
+  left: 2050px;
+  top: 60px;
+}
+
+
+.hex{
+
+  position:relative ;
+  left: 2050px;
+  bottom: 400px;
+
+}
+
+
+
+.face{
+  position:relative ;
+  left: 350px;
+  top: 450px;
+  z-index: 99;
+  
+}
+
+
+#parent > li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100px;
+ border: black;
+  display: inline-block;
+  font-size: 70px;
+  padding: 10px;
+  width: auto;
+  height: 100%;
+ 
+ 
+}
+
+.text{
+  height: 50px;
+  width: 500vh;
+  position: absolute;
+  top: 400px;
+  font-size: 50px;
+  
+}
+
+.name{
+  position: relative;
+}
+
+.next{
+  position: absolute;
+}
+
+/* Options in index.html */
+.options
+{
+  display: inline-block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.option
+{
+  float:left;
+  padding: 50px;
+}
+
+.emoji {
+  font-size: 100px;
+  vertical-align: middle;
+  line-height: 2;
+  clear: both;
+  margin: auto;
+}
+
+.description
+{
+  margin: auto;
+  margin-top: -50px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  }
+
+  
